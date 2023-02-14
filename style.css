@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #08dce4;    
+  }
+
+
+  
+  body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url('https://t4.ftcdn.net/jpg/02/48/06/51/360_F_248065175_UKqGpkZFZG3mPBKKKpxseqS6VlIlmzq7.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(245, 3, 104, 0.3);
+
+  }
+  
+  h1 {
+    
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: gold;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .yes-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+  }
+  
+  .no-btn {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+  }
+
+  .result-container {
+    margin-top: 30px;
+  }
+  
+  .result-text {
+    font-size: 24px;
+  }
+  
+  .hidden {
+    background-color: #ff4d4d;
+    font-size: 1000px;
+    display: none;
+  }
